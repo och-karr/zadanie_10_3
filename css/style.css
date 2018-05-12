@@ -1,8 +1,9 @@
 #carousel {
-    margin: 0 auto;
+    margin: 100px auto;
     width: 400px;
-    height: 300px;
+    height: 260px;
     border: 2px solid black;
+    overflow: hidden;
 }
 
 ul,li {
@@ -15,7 +16,11 @@ ul {
 }
 
 li {
-    display: inline-block;
+    display: block;
     list-style: none;
-    /* float: left; */
+    float: left;
+}
+
+img {
+    width: 400px;
 }
